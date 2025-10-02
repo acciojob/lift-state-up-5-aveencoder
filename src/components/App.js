@@ -13,7 +13,7 @@ const App = () => {
     <div style={{margin:'150px'}}>
         <h1>Parent Component</h1>
         {isLoggedIn? (
-          <h2>You are Logged in.</h2>
+          <p>You are logged in!</p>
         ) : (<LoginForm onLogin={handlefunction}/>)
         }
     </div>
